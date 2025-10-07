@@ -5,8 +5,8 @@ import httpx  # Cliente HTTP para consumir los microservicios externos
 app = FastAPI()
 
 # Aquí luego pondrás las IPs públicas reales cuando estén desplegadas
-TEMBLOR_SERVICE_URL = "http://34.229.153.176:8001"
-COMPORTAMIENTO_SERVICE_URL = "http://3.80.69.181:8002"
+TEMBLOR_SERVICE_URL = "http://54.144.72.239:8001"
+COMPORTAMIENTO_SERVICE_URL = "http://34.207.252.60:8002"
 
 @app.get("/")
 async def root():
